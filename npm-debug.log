@@ -1,0 +1,63 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'owner',
+1 verbose cli   'ls',
+1 verbose cli   'OpenShift-Sample-App' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 verbose request where is /OpenShift-Sample-App
+6 verbose request registry https://registry.npmjs.org/
+7 verbose request id dedde456a744499b
+8 verbose url raw /OpenShift-Sample-App
+9 verbose url resolving [ 'https://registry.npmjs.org/', './OpenShift-Sample-App' ]
+10 verbose url resolved https://registry.npmjs.org/OpenShift-Sample-App
+11 verbose request where is https://registry.npmjs.org/OpenShift-Sample-App
+12 info trying registry request attempt 1 at 17:04:34
+13 http GET https://registry.npmjs.org/OpenShift-Sample-App
+14 http 404 https://registry.npmjs.org/OpenShift-Sample-App
+15 verbose headers { date: 'Sat, 04 Oct 2014 21:04:34 GMT',
+15 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+15 verbose headers   'content-type': 'application/json',
+15 verbose headers   'cache-control': 'max-age=0',
+15 verbose headers   'content-length': '52',
+15 verbose headers   'accept-ranges': 'bytes',
+15 verbose headers   via: '1.1 varnish',
+15 verbose headers   age: '0',
+15 verbose headers   'x-served-by': 'cache-jfk1030-JFK',
+15 verbose headers   'x-cache': 'MISS',
+15 verbose headers   'x-cache-hits': '0',
+15 verbose headers   'x-timer': 'S1412456674.014764,VS0,VE15',
+15 verbose headers   'keep-alive': 'timeout=10, max=50',
+15 verbose headers   connection: 'Keep-Alive' }
+16 silly registry.get cb [ 404,
+16 silly registry.get   { date: 'Sat, 04 Oct 2014 21:04:34 GMT',
+16 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+16 silly registry.get     'content-type': 'application/json',
+16 silly registry.get     'cache-control': 'max-age=0',
+16 silly registry.get     'content-length': '52',
+16 silly registry.get     'accept-ranges': 'bytes',
+16 silly registry.get     via: '1.1 varnish',
+16 silly registry.get     age: '0',
+16 silly registry.get     'x-served-by': 'cache-jfk1030-JFK',
+16 silly registry.get     'x-cache': 'MISS',
+16 silly registry.get     'x-cache-hits': '0',
+16 silly registry.get     'x-timer': 'S1412456674.014764,VS0,VE15',
+16 silly registry.get     'keep-alive': 'timeout=10, max=50',
+16 silly registry.get     connection: 'Keep-Alive' } ]
+17 error owner ls Couldn't get owner data OpenShift-Sample-App
+18 error 404 404 Not Found: OpenShift-Sample-App
+18 error 404
+18 error 404 'OpenShift-Sample-App' is not in the npm registry.
+18 error 404 You should bug the author to publish it
+18 error 404
+18 error 404 Note that you can also install from a
+18 error 404 tarball, folder, or http url, or git url.
+19 error System Windows_NT 6.2.9200
+20 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "owner" "ls" "OpenShift-Sample-App"
+21 error cwd C:\websites\experiments\Nodejs\cs5610
+22 error node -v v0.10.32
+23 error npm -v 1.4.28
+24 error code E404
+25 verbose exit [ 1, true ]
